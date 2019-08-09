@@ -116,8 +116,30 @@
                 },
                 {
                     "name": "",
+                    "id": "c5d9c576-d8ff-4cf4-92d4-c98186c73931",
+                    "path": "<Joystick>/stick",
+                    "interactions": "",
+                    "processors": "InvertVector2(invertX=false)",
+                    "groups": "",
+                    "action": "StickL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "3c325fe7-d968-4491-96b9-eb4c4b3cc1ad",
                     "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "233a2ec8-ee5f-4953-a460-023dc7e4add5",
+                    "path": "<HID::8Bitdo Bluetooth Wireless Controller Gamepad>/button1",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -138,6 +160,17 @@
                 },
                 {
                     "name": "",
+                    "id": "fced5858-0974-4208-9c88-5ae6efe6b65a",
+                    "path": "<HID::8Bitdo Bluetooth Wireless Controller Gamepad>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "B",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "2bb9983e-2894-45ec-a62c-cf0b4314ac8a",
                     "path": "<Gamepad>/buttonWest",
                     "interactions": "",
@@ -149,8 +182,30 @@
                 },
                 {
                     "name": "",
+                    "id": "4af402fb-fda6-48c0-be11-27cd56c66f55",
+                    "path": "<HID::8Bitdo Bluetooth Wireless Controller Gamepad>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "X",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "883d3cd6-edb0-485e-acd8-02c37faa1572",
                     "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Y",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "285431fc-8477-46a2-929b-c481c2611260",
+                    "path": "<HID::8Bitdo Bluetooth Wireless Controller Gamepad>/button5",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -193,8 +248,30 @@
                 },
                 {
                     "name": "",
+                    "id": "0bef21dc-5486-4a61-8675-630fd75d8e9f",
+                    "path": "<HID::8Bitdo Bluetooth Wireless Controller Gamepad>/button12",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "eb77457a-cd15-4318-aef2-659dd2cff903",
                     "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2a355b44-b75d-4d2f-b1ee-d57185312177",
+                    "path": "<HID::8Bitdo Bluetooth Wireless Controller Gamepad>/button11",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -226,8 +303,30 @@
                 },
                 {
                     "name": "",
+                    "id": "ee9d6eba-a2b8-4039-a4de-a9742f5bdbce",
+                    "path": "<HID::8Bitdo Bluetooth Wireless Controller Gamepad>/button7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LShoulder",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "91e95947-4e64-4ce9-8639-5f3e5acdaa2a",
                     "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RShoulder",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6d2e31dd-05aa-43fa-a368-5793ba7afdcd",
+                    "path": "<HID::8Bitdo Bluetooth Wireless Controller Gamepad>/button8",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

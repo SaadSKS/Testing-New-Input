@@ -24,25 +24,64 @@ public class ControlActions : IInputActionCollection
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
-                },
-                {
-                    ""name"": ""Move1"",
-                    ""type"": ""Button"",
-                    ""id"": ""c12335b6-fb6c-40e1-a349-b012451a6567"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """"
-                },
-                {
-                    ""name"": ""Move2"",
-                    ""type"": ""Button"",
-                    ""id"": ""83960090-d1e9-4a02-a8b2-c743125934d1"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
+                {
+                    ""name"": ""WASD"",
+                    ""id"": ""70e8b6e3-924f-40b0-bf9b-da6a24df1e1c"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""67669f46-4de4-4ba1-83e7-a543e8da7a28"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""6e41e11c-1f26-4b83-b696-f6f38351d735"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""96c50ea1-90fa-4536-9a7b-51e62e88f6af"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""cf25f608-5cfe-4da9-ba24-8b77d93c76f4"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
                 {
                     ""name"": ""ArrowKeys"",
                     ""id"": ""5ddea7c7-4b31-4612-9d09-5824f9149fe5"",
@@ -99,68 +138,13 @@ public class ControlActions : IInputActionCollection
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""WASD"",
-                    ""id"": ""28bed88b-9cdd-42b1-be8b-cc65a31e775d"",
-                    ""path"": ""2DVector"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Move1"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""f8ab0c6b-2145-479c-9d84-c7b50c467ed0"",
-                    ""path"": ""<Keyboard>/w"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Move1"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""b93be4fd-5e7f-479e-b440-d1d83b3fe9ac"",
-                    ""path"": ""<Keyboard>/s"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Move1"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""8f681102-3fb0-4bde-a9c4-781659ae58e6"",
-                    ""path"": ""<Keyboard>/a"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Move1"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""bc6be7cb-b754-4344-8535-c76f5baf74fa"",
-                    ""path"": ""<Keyboard>/d"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Move1"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
                     ""name"": """",
-                    ""id"": ""60e66dc6-d836-4f0b-b8dd-97ff0d02573d"",
+                    ""id"": ""8bd37f43-59e0-4112-850c-9b80ee8a408e"",
                     ""path"": ""<Gamepad>/leftStick"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move2"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -172,8 +156,6 @@ public class ControlActions : IInputActionCollection
         // Player
         m_Player = asset.GetActionMap("Player");
         m_Player_Move = m_Player.GetAction("Move");
-        m_Player_Move1 = m_Player.GetAction("Move1");
-        m_Player_Move2 = m_Player.GetAction("Move2");
     }
 
     ~ControlActions()
@@ -224,15 +206,11 @@ public class ControlActions : IInputActionCollection
     private readonly InputActionMap m_Player;
     private IPlayerActions m_PlayerActionsCallbackInterface;
     private readonly InputAction m_Player_Move;
-    private readonly InputAction m_Player_Move1;
-    private readonly InputAction m_Player_Move2;
     public struct PlayerActions
     {
         private ControlActions m_Wrapper;
         public PlayerActions(ControlActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_Player_Move;
-        public InputAction @Move1 => m_Wrapper.m_Player_Move1;
-        public InputAction @Move2 => m_Wrapper.m_Player_Move2;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -245,12 +223,6 @@ public class ControlActions : IInputActionCollection
                 Move.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
                 Move.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
                 Move.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
-                Move1.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove1;
-                Move1.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove1;
-                Move1.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove1;
-                Move2.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove2;
-                Move2.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove2;
-                Move2.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove2;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -258,12 +230,6 @@ public class ControlActions : IInputActionCollection
                 Move.started += instance.OnMove;
                 Move.performed += instance.OnMove;
                 Move.canceled += instance.OnMove;
-                Move1.started += instance.OnMove1;
-                Move1.performed += instance.OnMove1;
-                Move1.canceled += instance.OnMove1;
-                Move2.started += instance.OnMove2;
-                Move2.performed += instance.OnMove2;
-                Move2.canceled += instance.OnMove2;
             }
         }
     }
@@ -271,7 +237,5 @@ public class ControlActions : IInputActionCollection
     public interface IPlayerActions
     {
         void OnMove(InputAction.CallbackContext context);
-        void OnMove1(InputAction.CallbackContext context);
-        void OnMove2(InputAction.CallbackContext context);
     }
 }
